@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  background-color: aqua;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+  box-sizing: border-box;
+  align-items: center;
+}
+.box{
+  width: 40vw;
+  height: 5vh;
+  display: flex;
+  justify-content: space-between;
+}
+#msg{
+  width: 32vw;
+  height: 5vh;
+  font-size: 2rem;
+}
+#send{
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  width: 8vw;
+  height: 5vh;
+}
